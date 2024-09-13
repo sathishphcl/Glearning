@@ -11,7 +11,7 @@ $webRoot = "C:\inetpub\wwwroot"
 
 # Step 4: Define the HTML content with a light blue background and an image from GitHub
 # Replace the URL below with the actual URL of your image from GitHub
-$githubImageUrl = "https://github.com/your-repo/your-image.png"  # Update this with the correct GitHub image URL
+$githubImageUrl = "https://github.com/sathishphcl/Glearning/blob/master/VMSS/GLearning.jpg?raw=true"  # Update this with the correct GitHub image URL
 
 $htmlContent = @"
 <!DOCTYPE html>
@@ -35,9 +35,9 @@ $htmlContent = @"
 </head>
 <body>
     <h1>Welcome to GreatLearning.. !!</h1>
-    <h1>I am from $hostname!</h1>
+    <h1>I am from {{  $hostname  }}</h1>
     <h1>This is a demonstration of the VM Scalset.</h1>
-    <img src="https://github.com/sathishphcl/Glearning/blob/master/VMSS/GLearning.jpg?raw=true">
+    <img src=$githubImageUrl>
 </body>
 </html>
 "@
@@ -52,4 +52,5 @@ Start-Service -Name W3SVC
 
 # Step 7: Confirm the installation and display the URL
 Write-Host "IIS has been installed and configured with a custom HTML page."
-Write-Host "You can view the page at http://localhost"
+$hostpip = (Invoke-WebRequest ifconfig.me/ip).Content.Trim()
+Write-Host "You can view the page at http://$hostpip"
