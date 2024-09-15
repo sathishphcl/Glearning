@@ -36,7 +36,7 @@ $htmlContent = @"
 <body>
     <h1>Welcome to GreatLearning.. !!</h1>
     <h1>I am from "$hostname"</h1>
-    <h1>This is a demonstration of the VM Scalset.</h1>
+    <h1>This is a demonstration of the VM & Scalset.</h1>
     <img src=$githubImageUrl>
 </body>
 </html>
