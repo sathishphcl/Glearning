@@ -1,4 +1,5 @@
 # The script creates a nice calculation for all of your “Windows Logical Processors”
+# https://www.robvit.com/windows_server/generate-cpu-load-with-powershell/
 
 $NumberOfLogicalProcessors = Get-WmiObject win32_processor | Select-Object -ExpandProperty NumberOfLogicalProcessors
 
