@@ -1,0 +1,5 @@
+prod_resource_group_name = "avd1-rg"
+prod_location = "eastus"
+subscriptio_id = "5e734936-ce72-48c8-bfdf-d1444816e1ab"
+vnet_name = "avd-vnet"
+vnet_cidr = "10.16.0.0/16"

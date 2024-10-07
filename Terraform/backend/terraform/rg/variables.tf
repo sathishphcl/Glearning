@@ -34,16 +34,3 @@ variable "subscriptio_id" {
   type        = string
   #default     = "East US"  # Optional: you can set a default value
 }
-
-variable "vnet_name" {
-  description = "The production vnet name for resources"
-  type        = string
-  #default     = "East US"  # Optional: you can set a default value
-}
-
-variable "vnet_cidr" {
-  description = "The production vnet IP CIDR "
-  type        = string
-  #default     = "East US"  # Optional: you can set a default value
-}
-

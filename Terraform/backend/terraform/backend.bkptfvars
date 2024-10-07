@@ -1,0 +1,4 @@
+storage_account_name = "tfbackendstacc9669"
+resource_group_name  = "rg-tfbackend-9669"
+container_name = "tfstate"
+key = "terraform.tfstate"

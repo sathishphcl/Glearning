@@ -29,12 +29,6 @@ variable "prod_location" {
   #default     = "East US"  # Optional: you can set a default value
 }
 
-variable "subscriptio_id" {
-  description = "The production Subscription for resources"
-  type        = string
-  #default     = "East US"  # Optional: you can set a default value
-}
-
 variable "vnet_name" {
   description = "The production vnet name for resources"
   type        = string
@@ -46,4 +40,3 @@ variable "vnet_cidr" {
   type        = string
   #default     = "East US"  # Optional: you can set a default value
 }
-

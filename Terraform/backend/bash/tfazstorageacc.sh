@@ -58,10 +58,25 @@ output_directory="../terraform"
 # Create the directory if it doesn't exist
 # mkdir -p "$output_directory"
 
+:'
+
 # Dynamically generate terraform.tfvars file
 cat > "$output_directory/backend.tfvars" <<EOF
 storage_account_name = "$storageaccountname"
 resource_group_name  = "$resourcegroup"
 container_name = "$containername"
 key = "terraform.tfstate"
+EOF
+
+'
+# Dynamically generate terraform.tfvars file
+cat > "$output_directory/backend.tf" <<EOF
+terraform {
+backend "azurerm" {
+storage_account_name = "$storageaccountname"
+resource_group_name  = "$resourcegroup"
+container_name = "$containername"
+key = "terraform.tfstate"
+}
+}
 EOF
