@@ -1,0 +1,7 @@
+# bash-variables
+prefix="tfbackend"
+#storageaccountname="${prefix}storageaccount"
+containername="${prefix}-container"
+#tfstkey="${prefix}tfstatekey"
+location="EastUS"
+resourcegroup="${prefix}-rg"
