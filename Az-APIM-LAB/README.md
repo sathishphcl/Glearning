@@ -29,3 +29,15 @@ https://pumpingco.de/blog/control-ingress-to-aks-with-azure-api-management/
 
 https://www.youtube.com/watch?v=vEXIXp1jqFE&list=PLDUPL1iASgCwBa00t1fTqZrclVWip4THZ&pp=iAQB
 https://www.youtube.com/watch?v=vEXIXp1jqFE&list=PLDUPL1iASgCwBa00t1fTqZrclVWip4THZ&pp=iAQB
+
+Protecting APIs in Azure API Management using OAuth 2.0 Client Credential Flow & test using Postman
+https://techcommunity.microsoft.com/t5/fasttrack-for-azure/protecting-apis-in-azure-api-management-using-oauth-2-0-client/ba-p/3054130
+
+Protect API's using OAuth 2.0 in APIM
+https://techcommunity.microsoft.com/t5/azure-paas-blog/protect-api-s-using-oauth-2-0-in-apim/ba-p/2309538
+
+Introducing a better way to integrate Azure AD with API Management
+https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-a-better-way-to-integrate-azure-ad-with-api/ba-p/3671864
+
+Integrating API Management with App Gateway V2
+https://techcommunity.microsoft.com/t5/azure-paas-blog/integrating-api-management-with-app-gateway-v2/ba-p/1241650
